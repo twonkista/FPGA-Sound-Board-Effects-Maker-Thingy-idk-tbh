@@ -9,3 +9,5 @@ parts:
 -fpga
 -pcm5102 dac
 -wires
+
+trunk full of old 100s
