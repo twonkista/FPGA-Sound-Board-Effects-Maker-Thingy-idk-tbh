@@ -16,4 +16,6 @@ parts:
 -pcm5102 dac
 -wires
 
+ok so bitream generated, pcm soldered, demo video coming soon type shi
+
 trunk full of old 100s
