@@ -26,9 +26,10 @@ module uart_rx
      input logic clk,
      input logic reset,
      output logic data_valid,
-     output logic [7:0] data_out,
-     output logic [2:0] count,
-     output logic [1:0] state_c);
+     output logic [7:0] data_out
+     //output logic [2:0] count,
+     //output logic [1:0] state_c
+     );
      
      logic [10:0] counter;
      logic [2:0] data_cnt;
@@ -121,6 +122,6 @@ module uart_rx
      end
      
      assign data_out = packet_buffer;
-     assign count = data_cnt;
-     assign state_c = state;
+     //assign count = data_cnt;
+     //assign state_c = state;
 endmodule
